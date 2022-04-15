@@ -1,0 +1,7 @@
+
+
+[character]
+success_symbol = "[](bold green)"
+
+[python]
+python_binary = ["python3", "python"]
