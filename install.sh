@@ -63,8 +63,8 @@ git clone https://aur.archlinux.org/yay-git.git
 echo "cd yay-git"
 cd yay-git
 
-echo "sudo makepkg -si"
-sudo makepkg -si
+echo "makepkg -si"
+makepkg -si
 
 echo "cd ../../"
 cd ../../
