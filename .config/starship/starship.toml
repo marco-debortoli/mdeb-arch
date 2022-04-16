@@ -1,4 +1,6 @@
-
+[directory]
+style = "bold yellow"
+truncation_length = 5
 
 [character]
 success_symbol = "[](bold green)"
