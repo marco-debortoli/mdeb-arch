@@ -1,4 +1,9 @@
 # Hack the Box
+window:
+  padding:
+    x: 15
+    y: 15
+
 colors:
   # Default colors
   primary:
@@ -49,3 +54,4 @@ font:
     style: Bold Italic
 
   size: 11
+
