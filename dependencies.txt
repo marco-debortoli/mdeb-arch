@@ -1,4 +1,0 @@
-papirus-icon-theme
-betterlockscreen
-fish
-picom-ibhagwan-git
