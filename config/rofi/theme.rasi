@@ -1,0 +1,109 @@
+* {
+  background:                  #2d353b;
+  selected-active-foreground:  var(background);
+  separatorcolor:              var(foreground);
+  urgent-foreground:           var(red);
+  alternate-urgent-background: var(lightbg);
+  background-color:            transparent;
+  border-color:                var(foreground);
+  normal-background:           var(background);
+  selected-urgent-background:  var(red);
+  alternate-active-background: var(lightbg);
+  spacing:                     10;
+  alternate-normal-foreground: var(foreground);
+  urgent-background:           var(background);
+  selected-normal-foreground:  #dcd7ba;
+  active-foreground:           #dcd7ba;
+  selected-active-background:  #2d4f67;
+  active-background:           #2d4f67;
+  selected-normal-background:  #7fbbb3;
+  alternate-normal-background: #1f1f28;
+  foreground:                  #d3c6aa;
+  selected-urgent-foreground:  #dcd7ba;
+  normal-foreground:           #dcd7ba;
+  alternate-urgent-foreground: #dcd7ba;
+  alternate-active-foreground: #dcd7ba;
+}
+
+element {
+    padding: 10px 10px 10px 10px ;
+    cursor: pointer;
+    border: 0;
+    border-radius: 15px;
+}
+
+element normal.normal {
+    background-color: #2D353B;
+    text-color: #d3c6aa;
+}
+
+element selected.normal {
+    background-color: #425047;
+    text-color: #d3c6aa;
+}
+
+element alternate.normal {
+    background-color: #2D353B;
+    text-color: #d3c6aa;
+}
+
+element-text {
+    text-color: #d3c6aa;
+}
+
+window {
+    background-color: #232A2E;
+    border: 4;
+    border-color: #425047;
+    border-radius: 15;
+    width: 30%;
+    height: 45%;
+}
+
+mainbox {
+    border:  0;
+    background-color: #232A2E;
+}
+
+textbox {
+    background-color: #d3c6aa;
+    text-color: #dcd7ba;
+}
+
+listview {
+    scrollbar: false;
+    background-color: #232A2E;
+    margin: 5px 20px 20px 20px;
+    border-radius: 0;
+    fixed-height: 0;
+    border: 0;
+    lines: 20;
+}
+
+inputbar {
+    padding: 60px 60px 60px 60px;
+    margin: 20px 20px 0px 20px;
+    border-radius: 15px;
+    spacing: 0px;
+    text-color: #d3c6aa;
+    background-color: #3A515D; 
+    background-image: url("~/.config/rofi/image/summer.jpg", WIDTH);
+}
+
+entry {
+    background-color: #2d353b;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 15px;
+    text-color: #d3c6aa;
+    cursor: text;
+    spacing: 0;
+    placeholder-color: #7A8478;
+    placeholder: " Search";
+}
+
+prompt {
+    enabled: false;
+}
+
+
