@@ -1,0 +1,144 @@
+* {
+    font-family: "JetBrainsMono Nerd Font Mono";
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+window#waybar {
+    background: #2D353B;
+    border-radius: 15px;
+}
+
+/* Workspaces */
+
+#workspaces {
+    font-size: 20pt;
+    border: none;
+    box-shadow: none;
+}
+
+#workspaces button {
+    color: #D3C6AA;
+    padding: 0px;
+}
+
+#workspaces button.active {
+    color: #A7C080;
+}
+
+#workspaces button:hover {
+    background: #2D353B;
+    border-color: #2D353B;
+    box-shadow: none;
+    text-shadow: none;
+    color: #DBBC7F;
+}
+
+/* Date */
+
+#custom-calendar-icon {
+    padding-top: 10px;
+    font-size: 20pt;
+    color: #D699B6;
+}
+
+#clock {
+    color: #D3C6AA;
+}
+
+#clock.date {
+    color: #D3C6AA;
+    padding-bottom: 10px;
+}
+
+/* Time */
+
+#custom-time-icon {
+    font-size: 20pt;
+    color: #7FBBB3;
+}
+
+#clock.time {
+    color: #D3C6AA;
+}
+
+/* Tooltip */
+
+tooltip {
+    background: #56635F;
+    color: #D3C6AA;
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #A7C080;
+}
+
+/* Tray */
+
+#tray {
+    color: #D3C6AA;
+    padding-bottom: 10px;
+}
+
+/* Volume */
+
+#pulseaudio {
+    color: #E69875;
+    font-size: 20pt;
+    background-color: #343F44;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: -5px;
+}
+
+/* Brightness */
+
+#backlight {
+    color: #DBBC7F;
+    background-color: #343F44;
+    font-size: 20pt;
+}
+
+/* Battery */
+
+#battery {
+    color: #A7C080;
+    background-color: #343F44;
+    font-size: 14pt;
+}
+
+#battery.critical {
+    color: #E67E80;
+}
+
+#battery.warning {
+    color: #E69875;
+}
+
+/* Bluetooth */
+
+#bluetooth {
+    padding-top: 5px;
+    color: #7FBBB3;
+    font-size: 14pt;
+    background-color: #343F44;
+}
+
+/* Network */
+
+#network {
+    color: #83C092;
+    font-size: 20pt;
+    background-color: #343F44;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+/* Power */
+
+#custom-power {
+    font-size: 20pt;
+    color: #E67E80;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}

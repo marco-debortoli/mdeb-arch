@@ -1,0 +1,149 @@
+{
+    "layer": "top",
+    "position": "left",
+    //"height": 40,
+    "width": "60",
+    "modules-left": [
+        "custom/calendar-icon", "clock", "clock#date",
+        "custom/time-icon", "clock#time"
+    ],
+    "modules-center": ["wlr/workspaces"],
+    "modules-right": [
+        "tray",
+        "pulseaudio", "backlight", "battery", /*"bluetooth",*/ "network",
+        "custom/power"
+    ],
+    "margin-left": 10,
+    "margin-top": 20,
+    "margin-bottom": 20,
+
+    // Date
+
+    "custom/calendar-icon": {
+        "format": "󰸘",
+        "tooltip": false
+    },
+
+    "clock": {
+        "format": "{:%a}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
+    "clock#date": {
+        "format": "{:%d}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
+    },
+
+    // Time
+
+    "custom/time-icon": {
+        "format": "󱑌",
+        "tooltip": false
+    },
+
+    "clock#time": {
+        "format": "{:%H\n%M}"
+    },
+
+    // WLR Workspaces
+
+    "wlr/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+        //"all-outputs": true,
+        "sort-by-number": true,
+        "persistent_workspaces": {
+            "1": [],
+            "2": [],
+            "3": [],
+            "4": [],
+            "5": [],
+            "6": []
+        },
+        "format-icons": {
+            "active": "",
+            "default": ""
+        }
+    },
+
+    // Tray
+
+    "tray": {
+        "icon-size": 15,
+        "spacing": 5
+    },
+
+    // Brightness
+
+    "backlight": {
+        "format": "{icon}",
+        "tooltip-format": "{icon} {percent}%",
+        "format-icons": ["󰃞", "󰃟", "󰃠"]
+    },
+
+    // Volume
+
+    "pulseaudio": {
+        "format": "{icon}",
+        "format-muted": "󰝟",
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+        "tooltip-format": "{icon} {desc} {volume}%",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["󰖀", "󰕾"]
+        }
+    },
+
+    // Battery
+
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        //"full-at": 65,
+        "format": "{icon}",
+        "tooltip-format": "{capacity}%",
+        "format-warning": "{icon}",
+        "format-critical": "{icon}",
+        "format-charging": "󰂄",
+        "format-plugged": "󰂄",
+        "format-full": "󱟢",
+        "format-icons": ["󱊡", "󱊢", "󱊣"]
+    },
+
+    // Bluetooth
+
+    "bluetooth": {
+	    "format": "",
+	    "format-disabled": "", // an empty format will hide the module
+	    "format-connected": "󰂯",
+	    "tooltip-format": "󰂯 {num_connections} {device_alias}",
+	    "tooltip-format-connected": "{device_enumerate}",
+	    "tooltip-format-enumerate-connected": "󰂯 {device_alias}"
+    },
+
+    // Network
+
+    "network": {
+        "format-wifi": "󰖩",
+        "format-ethernet": "󱘖",
+        "tooltip-format": "󱘖 {essid} {ipaddr}\n {bandwidthUpBytes}  {bandwidthDownBytes}",
+        "format-linked": "󱘖 {ifname} (No IP)",
+        "format-disconnected": "",
+        "format-alt": "󰤨",
+        "interval": 30
+    },
+
+    // Power
+    "custom/power": {
+        "format": "",
+        "tooltip": false
+    }
+
+}
