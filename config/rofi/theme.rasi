@@ -86,7 +86,7 @@ inputbar {
     border-radius: 15px;
     spacing: 0px;
     text-color: #d3c6aa;
-    background-color: #3A515D; 
+    background-color: #425047; 
     background-image: url("~/.config/rofi/image/summer.jpg", WIDTH);
 }
 
