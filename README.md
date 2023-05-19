@@ -4,6 +4,10 @@ This is my personal Arch Linux configuration built using Hyprland! Some screensh
 
 ![screenshot of terminal layout](https://raw.githubusercontent.com/marco-debortoli/mdeb-arch/main/screenshots/terminal.png)
 
+![screenshot of rofi layout](https://raw.githubusercontent.com/marco-debortoli/mdeb-arch/main/screenshots/rofi.png)
+
+![screenshot of wallpaper](https://raw.githubusercontent.com/marco-debortoli/mdeb-arch/main/screenshots/wallpaper.png)
+
 ## Install
 
 Find below some of the installation instructions, which are tailored to my current Framework Laptop 13 (12th Gen Intel). You may need to make some adjustments if you have an NVIDIA GPU or use an AMD CPU.
