@@ -49,7 +49,7 @@ Bluetooth, Brightness and Audio
 - `pavucontrol`
 
 Power Management
-- `tlp`
+- `power-profiles-daemon`
 - `swaylock-effects`
 - `swayidle`
 
@@ -61,6 +61,7 @@ SSH and Networking
 Wallpaper & Font
 - `swww-git`
 - `ttf-jetbrains-mono-nerd`
+- `noto-fonts-emoji`
 
 Application Launcher
 - `rofi-lbonn-wayland-git`
@@ -90,6 +91,10 @@ Enable TLP
 
 Framework Laptop: Deactivate the Automatic Light Sensor
 - Move the `modprobe/framework-als-deactivate.conf` to `/etc/modprobe.d/framework-als-deactivate.conf`
+
+Scaling
+- If using Hyprland with 1.0 scaling - set font sizes to 14
+- If using Hyprland with 1.25 scaling - set font sizes to 11
 
 ### Install .config
 

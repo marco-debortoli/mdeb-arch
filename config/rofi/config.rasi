@@ -1,6 +1,6 @@
 configuration {
   modes: "drun";
-  font: "JetBrainsMono Nerd Font Mono 11";
+  font: "JetBrainsMono Nerd Font Mono 14";
   fixed-num-lines: true;
   drun-match-fields: "name,generic,exec,categories,keywords";
   drun-display-format: "{name} [<span foreground='#a7c080'><i>({generic})</i></span>]";
