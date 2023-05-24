@@ -9,7 +9,7 @@ fade-in=1
 # Appearance
 clock
 indicator
-image=$HOME/pictures/wallpapers/firewatch_4k.png
+image=$HOME/.config/wallpaper.png
 
 scaling=fill
 
@@ -18,7 +18,7 @@ datestr=%A, %d %B
 
 # Text
 font=JetBrainsMono Nerd Font
-font-size=150
+font-size=100
 text-color=232A2E
 text-ver-color=00000000
 text-wrong-color=00000000
