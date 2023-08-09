@@ -29,7 +29,6 @@ Terminal Emulator
 - `fish`
 - `starship` (this can't be installed with yay - use the official starship install script)
 - `btop`
-- `nnn` (File Manager - Optional)
 - `vim`
 
 Browser
@@ -85,11 +84,6 @@ Enable bluetooth:
 - `systemctl enable bluetooth.service`
 - `systemctl start bluetooth.service`
 
-Enable TLP
-- `systemctl enable tlp.service`
-- `sudo tlp start`
-- Verify with: `tlp-stat -s`
-
 Framework Laptop: Deactivate the Automatic Light Sensor
 - Move the `modprobe/framework-als-deactivate.conf` to `/etc/modprobe.d/framework-als-deactivate.conf`
 
@@ -106,6 +100,5 @@ Move all the packages in the `config` folder to the local `.config` - which shou
 - [ ] Make it easier to change wallpaper for desktop and lock screen at the same time
 - [ ] Add Dunst notifications to waybar
 - [ ] Add rofi power menu
-- [ ] Look into `fw-fanctrl` for better Framework Laptop fan curves
 - [ ] Add install script
 
