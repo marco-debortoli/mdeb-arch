@@ -37,6 +37,7 @@ Browser
 
 Hyprland (Wayland Window Manager)
 - `hyprland-git`
+- `waybar-hyprland-git`
 - `pipewire`
 - `wireplumber`
 - `xdg-desktop-portal-hyprland`
