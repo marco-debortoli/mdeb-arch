@@ -27,7 +27,6 @@ Intel
 Terminal Emulator
 - `alacritty`
 - `fish`
-- `starship` (this can't be installed with yay - use the official starship install script)
 - `btop`
 - `vim`
 
@@ -56,10 +55,9 @@ Power Management
 SSH and Networking
 - `net-tools`
 - `openssh`
-- `tailscale` (Needed for my home network)
 
 Wallpaper & Font
-- `swww-git`
+- `hyprpaper`
 - `ttf-jetbrains-mono-nerd`
 - `noto-fonts-emoji`
 
@@ -79,6 +77,10 @@ Multimedia & Screenshots
 - `mpv`
 
 ### Additional Install
+
+Tailscale: `curl -fsSL https://tailscale.com/install.sh | sh`
+
+Starship: `curl -sS https://starship.rs/install.sh | sh`
 
 Enable bluetooth:
 - `systemctl enable bluetooth.service`
